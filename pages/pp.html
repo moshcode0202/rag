@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>getElementById vs getElementsByClassName</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p class="myClass">Element 1</p>
+    <!-- <p class="myClass">Element 2</p>
+    <p class="myClass">Element 3</p> -->
+    <a href=''> login</a>
+  </div>
+
+  <script>
+    // getElementById
+    // const myElement = document.getElementById('myDiv');
+    // console.log(myElement);
+
+    // getElementsByClassName
+    const myElements = document.getElementsByClassName('myClass')[0];
+    console.log(myElements,'lll');
+
+    // for (let i = 0; i < myElements.length; i++) {
+    //   console.log(myElements[i]);
+    // }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
